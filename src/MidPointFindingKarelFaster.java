@@ -10,6 +10,7 @@ public class MidPointFindingKarelFaster extends SuperKarel {
         }
     }
 
+    // Move up by 2 cells and right by one, when top is reached u are in the middle of the X axis
     private void moveUp() {
         turnLeft();
         if (frontIsClear()) {
